@@ -3,53 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohith Varala | Senior Full-Stack Engineer | Rohith9s</title>
-    <meta name="description" content="Official portfolio of Rohith Varala (Rohith9s). Senior Full-Stack Engineer at Fidelity Investments specializing in Scalable Microservices, Spring Boot, Angular, and Kafka.">
+    <title>Rohith Varala | Senior Full-Stack Engineer | Rohith9s Portfolio</title>
+    <meta name="description" content="Official portfolio of Rohith Varala (Rohith9s). Senior Full-Stack Engineer in Raleigh, NC specializing in FinTech, Scalable Microservices, and Java/Spring Boot.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 2rem; background-color: #f4f7f6; }
-        header { border-bottom: 3px solid #0073b1; padding-bottom: 1rem; margin-bottom: 2rem; }
-        h1 { margin: 0; color: #0073b1; }
-        .subtitle { font-size: 1.2rem; color: #555; font-weight: bold; }
-        .section { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 1.5rem; }
-        h2 { color: #0073b1; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
-        .tech-stack span { background: #e1e9ee; color: #004182; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.9rem; margin: 0.2rem; display: inline-block; font-weight: 500; }
-        footer { text-align: center; margin-top: 3rem; font-size: 0.8rem; color: #888; }
-        a { color: #0073b1; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
+        :root { --primary: #2ea44f; --dark: #24292e; --border: #d1d5da; --bg: #ffffff; }
+        body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; color: #24292e; margin: 0; background-color: var(--bg); line-height: 1.5; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; display: flex; gap: 40px; }
+        
+        /* Sidebar Styles */
+        .sidebar { width: 280px; flex-shrink: 0; }
+        .profile-pic { width: 100%; border-radius: 50%; border: 1px solid var(--border); margin-bottom: 16px; }
+        .full-name { font-size: 26px; font-weight: 600; margin-bottom: 4px; }
+        .user-name { font-size: 20px; font-style: normal; font-weight: 300; line-height: 24px; color: #666; margin-bottom: 16px; }
+        .bio-text { font-size: 14px; margin-bottom: 16px; }
+        .sidebar-detail { font-size: 14px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+        .sidebar-detail i { color: #6a737d; width: 16px; text-align: center; }
+
+        /* Main Content Styles */
+        .main-content { flex-grow: 1; }
+        .readme-box { border: 1px solid var(--border); border-radius: 6px; padding: 32px; margin-bottom: 24px; }
+        h1, h2 { border-bottom: 1px solid #eaecef; padding-bottom: 8px; margin-top: 24px; }
+        h1:first-child { margin-top: 0; }
+        
+        /* Skills Badges */
+        .badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 500; margin: 4px; border: 1px solid var(--border); background: #f6f8fa; }
+        .experience-item { margin-bottom: 20px; padding-left: 15px; border-left: 2px solid var(--primary); }
+        .experience-title { font-weight: 600; font-size: 16px; }
+        .experience-meta { font-size: 13px; color: #586069; }
+
+        @media (max-width: 850px) { .container { flex-direction: column; } .sidebar { width: 100%; text-align: center; } .sidebar-detail { justify-content: center; } }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Rohith Varala</h1>
-    <div class="subtitle">Senior Full-Stack Engineer @ Fidelity Investments</div>
-</header>
+<div class="container">
+    <div class="sidebar">
+        <img src="https://github.com/rohith9s.png" alt="Rohith Varala" class="profile-pic">
+        <div class="full-name">Rohith Varala</div>
+        <div class="user-name">rohith9s</div>
+        <div class="bio-text">Senior Full-Stack Engineer | Masters in CS 2022 | Scalable Microservices & Event-Driven Systems</div>
+        
+        <div class="sidebar-detail"><i class="fas fa-building"></i> FinTech Company</div>
+        <div class="sidebar-detail"><i class="fas fa-map-marker-alt"></i> Raleigh, North Carolina</div>
+        <div class="sidebar-detail"><i class="fas fa-link"></i> <a href="https://github.com/rohith9s">github.com/rohith9s</a></div>
+        <div class="sidebar-detail"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/rohith9s">in/rohith9s</a></div>
+    </div>
 
-<div class="section">
-    <h2>About Me</h2>
-    <p>I am a Senior Engineer with <strong>10+ years of experience</strong> building distributed systems, cloud-native microservices, and modern full-stack platforms. Based in Raleigh, North Carolina, I specialize in the <strong>FinTech</strong> and banking domains.</p>
-    <p>I hold a <strong>Masters in Computer Science (2022)</strong> from Southern Illinois University Edwardsville.</p>
-</div>
+    <div class="main-content">
+        <div class="readme-box">
+            <h1>Hi there, I'm Rohith Varala 👋</h1>
+            <p>I am a <strong>Senior Full-Stack Engineer</strong> with 10+ years of experience building and evolving distributed systems, cloud-native microservices, and modern full-stack platforms across FinTech, banking, and e-commerce domains.</p>
 
-<div class="section">
-    <h2>Professional Expertise</h2>
-    <p>Focusing on scalable microservices and event-driven systems:</p>
-    <div class="tech-stack">
-        <span>Spring Boot</span> <span>Angular</span> <span>Java</span> <span>Apache Kafka</span> 
-        <span>AWS EKS</span> <span>Microservices</span> <span>Full-Stack Development</span>
+            <h2>🚀 Professional Tech Stack</h2>
+            <div class="badge">Java</div> <div class="badge">Spring Boot</div> <div class="badge">Angular</div> 
+            <div class="badge">Apache Kafka</div> <div class="badge">AWS EKS</div> <div class="badge">Microservices</div>
+            <div class="badge">Python</div> <div class="badge">SQL/NoSQL</div>
+
+            <h2>💼 Professional Experiences</h2>
+            
+            <div class="experience-item">
+                <div class="experience-title">Senior Full-Stack Engineer</div>
+                <div class="experience-meta">FinTech Company (Raleigh, NC) | 2022 - Present</div>
+                <p>Developing high-performance event-driven systems and microservices for financial platforms.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-title">Full Stack Web Developer</div>
+                <div class="experience-meta">DBS Asia Hub 2 | 2019 - 2021</div>
+                <p>Delivered best-in-class financial solutions for a leading Asian services group.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-title">Senior Software Engineer</div>
+                <div class="experience-meta">Adaequare Info Private Limited | 2017 - 2019</div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-title">Software Engineer</div>
+                <div class="experience-meta">Fectaro Consulting Pvt Ltd | 2015 - 2016</div>
+            </div>
+
+            <h2>🎓 Education</h2>
+            <p><strong>Masters in Computer Science (2022)</strong><br>
+            Southern Illinois University Edwardsville</p>
+        </div>
     </div>
 </div>
 
-<div class="section">
-    <h2>Connect & Project Links</h2>
-    <ul>
-        <li><strong>GitHub:</strong> <a href="https://github.com/rohith9s">github.com/rohith9s</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rohith9s/">Rohith Varala on LinkedIn</a></li>
-    </ul>
-</div>
-
 <footer>
-    <p>&copy; 2024 Rohith Varala | Also known as Rohith9s, varalarohith, or Varala Rohith</p>
+    <div style="text-align: center; padding: 20px; color: #888; font-size: 12px;">
+        &copy; 2024 Rohith Varala | Rohith9s | varalarohith | Varala Rohith
+    </div>
 </footer>
 
 </body>
